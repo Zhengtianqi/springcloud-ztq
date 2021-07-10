@@ -14,4 +14,7 @@ public class TestController {
     public String test() {
         return "hello";
     }
+
+    @GetMapping(value = "testThreadDeath")
+    public void testThreadDeath(){}
 }
