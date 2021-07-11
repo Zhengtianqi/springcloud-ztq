@@ -18,4 +18,8 @@ public interface Constants {
      */
     String KAFKA_GROUP = "GROUP_WEB_NACOS";
     String KAFKA_DATAID = "supervision.web-platform.kafka.producer";
+
+    String ES_HTTP_PORT = "127.0.0.1:9200";
+
+    String COMMA_SPLIT = ",";
 }
