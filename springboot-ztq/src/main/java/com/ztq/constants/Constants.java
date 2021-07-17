@@ -11,7 +11,7 @@ public interface Constants {
     /**
      * 配置中心url
      */
-    String URL_NACOS = "nacos.xt.com";
+    String URL_NACOS = "nacos.com";
 
     /**
      * 配置中心Kafka生产者
@@ -19,7 +19,11 @@ public interface Constants {
     String KAFKA_GROUP = "GROUP_WEB_NACOS";
     String KAFKA_DATAID = "supervision.web-platform.kafka.producer";
 
-    String ES_HTTP_PORT = "127.0.0.1:9200";
+    String ES_HTTP_PORT = "127.0.0.1";
 
     String COMMA_SPLIT = ",";
+    /**
+     * es索引名称
+     */
+    String INDEX_PERSON = "my";
 }
