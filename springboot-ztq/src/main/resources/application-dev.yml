@@ -59,6 +59,6 @@ swagger:
     name: zhengtianqi
 # 自定义了文件名,默认名log4j2-spring.xml不需要配置此项
 logging:
-  config: log4j2.xml
+  config: classpath:log4j2.xml
   level:
     com.ztq: trace
