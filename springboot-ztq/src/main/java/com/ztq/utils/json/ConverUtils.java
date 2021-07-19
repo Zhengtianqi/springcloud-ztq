@@ -1,9 +1,10 @@
-package com.ztq.utils;
+package com.ztq.utils.json;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 import com.ztq.entity.SystemUser;
+import com.ztq.utils.datetime.TimeUtils;
 
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;

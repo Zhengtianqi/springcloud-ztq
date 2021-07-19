@@ -1,7 +1,7 @@
 package com.ztq.controller;
 
 import com.ztq.service.impl.RedisLock;
-import com.ztq.utils.RedisUtil;
+import com.ztq.utils.redis.RedisUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

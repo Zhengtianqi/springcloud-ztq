@@ -1,4 +1,4 @@
-package com.ztq.utils;
+package com.ztq.utils.es;
 
 import com.ztq.constants.Constants;
 import org.apache.http.HttpHost;

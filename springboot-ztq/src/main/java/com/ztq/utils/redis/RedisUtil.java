@@ -1,4 +1,4 @@
-package com.ztq.utils;
+package com.ztq.utils.redis;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;

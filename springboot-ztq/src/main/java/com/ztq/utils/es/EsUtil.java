@@ -1,4 +1,4 @@
-package com.ztq.utils;
+package com.ztq.utils.es;
 
 import com.alibaba.fastjson.JSON;
 

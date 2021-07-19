@@ -1,6 +1,7 @@
-package com.ztq.utils;
+package com.ztq.utils.kafka;
 
 import com.alibaba.fastjson.JSON;
+import com.ztq.utils.nacos.NacosUtils;
 import org.apache.kafka.clients.producer.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -25,7 +26,6 @@ public class KafkaProducerUtil {
 
         // 登录
         Properties props = props();
-        SecurityPrepare.kerbrosLogin(props.getProperty("sslDir"), props.getProperty("userKeytab"), props.getProperty("userPrincipal"));
         // 创建生产者实例
         buildProducer = new KafkaProducer<>(props);
     }

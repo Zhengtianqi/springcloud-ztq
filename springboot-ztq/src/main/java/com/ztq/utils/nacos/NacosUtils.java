@@ -1,4 +1,4 @@
-package com.ztq.utils;
+package com.ztq.utils.nacos;
 
 import com.alibaba.nacos.api.NacosFactory;
 import com.alibaba.nacos.api.PropertyKeyConst;
