@@ -16,7 +16,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <module>springboot-ztq</module>
+        <module>web</module>
     </modules>
 
     <repositories>
