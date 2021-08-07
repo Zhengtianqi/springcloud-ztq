@@ -18,6 +18,8 @@
     <modules>
         <module>web</module>
         <module>jvm</module>
+        <module>big-data</module>
+        <module>leetcode</module>
     </modules>
 
     <repositories>
