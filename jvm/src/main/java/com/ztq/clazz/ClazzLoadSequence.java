@@ -27,7 +27,9 @@ public class ClazzLoadSequence {
 
 
     public static void main(String[] args) {
+        // 2
         System.out.println(T1.count);
+        // 3
         System.out.println(T2.count);
     }
 
